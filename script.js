@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="styles.css">
+
 // scripts.js
 
 // Wait until the DOM is fully loaded

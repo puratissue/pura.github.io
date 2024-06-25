@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="High-quality tissue paper products for all your needs.">
+    <meta name="keywords" content="tissue paper, toilet paper, paper towels, facial tissues">
+    <meta name="author" content="Your Name">
+    <title>Tissue Paper Products</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        /* Basic styles for layout and typography */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block;
+        }
+        nav ul li a:hover {
+            background-color: #111;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: white;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .product-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: calc(33.333% - 40px);
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tissue Paper Products</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Our Tissue Paper Store</h2>
+            <p>Your one-stop shop for all tissue paper products. High quality, affordable prices, and eco-friendly options available.</p>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product">
+                <div class="product-item">
+                    <img src="images/tissue1.jpg" alt="Tissue Paper 1">
+                    <h3>Tissue Paper 1</h3>
+                    <p>Soft and durable tissue paper for daily use.</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/tissue2.jpg" alt="Tissue Paper 2">
+                    <h3>Tissue Paper 2</h3>
+                    <p>Eco-friendly tissue paper, gentle on the skin.</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/tissue3.jpg" alt="Tissue Paper 3">
+                    <h3>Tissue Paper 3</h3>
+                    <p>Extra absorbent tissue paper for every need.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing the best tissue paper products for our customers. Our range includes toilet paper, paper towels, and facial tissues made from high-quality materials.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For inquiries, please email us at <a href="mailto:info@example.com">info@example.com</a>.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tissue Paper Products. All rights reserved.</p>
+    </footer>
+</body>
+</html>
